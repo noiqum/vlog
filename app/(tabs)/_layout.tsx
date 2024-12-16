@@ -23,18 +23,7 @@ export default function AppLayout() {
           ),
         }}
       />
-      <Tabs.Screen
-        name="screens/VideoDetailScreen"
-        options={{
-          title: "Video Details",
-          tabBarLabel: "Details",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="eye" color={color} size={size} />
-          ),
-          // Hide this tab from the tab bar
-          href: null,
-        }}
-      />
+
       <Tabs.Screen
         name="crop"
         options={{
